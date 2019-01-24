@@ -1,0 +1,30 @@
+{
+	"name": "js4dapp",
+	"version": "1.0.1",
+	"description": "Use Javascript build Dapp On FIBOS",
+	"main": "index.js",
+	"bin": {
+		"js4dapp": "./bin/cli.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anlebcoder/js4dapp.git"
+	},
+	"keywords": [
+		"js",
+		"dapp",
+		"fibos"
+	],
+	"dependencies": {
+		"fibos.js": "^0.3.4"
+	},
+	"author": "anlebcoder",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/anlebcoder/js4dapp/issues"
+	},
+	"homepage": "https://github.com/anlebcoder/js4dapp#readme"
+}
