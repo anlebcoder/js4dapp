@@ -1,6 +1,6 @@
 {
 	"name": "js4dapp",
-	"version": "1.0.1",
+	"version": "1.0.4",
 	"description": "Use Javascript build Dapp On FIBOS",
 	"main": "index.js",
 	"bin": {
