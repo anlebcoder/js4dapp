@@ -102,7 +102,7 @@ hello
 
 2. 快速部署
 
-让我们来尝试发布一下 ABI 文件，默认 js4dapp 启用 [testnet 网络](https://testnet.fibos.fo/#/)
+让我们来尝试发布一下 ABI 文件，默认 js4dapp 启用 [testnet 网络](https://testnet.fibos.fo/#/)，`setabi` 支持任意路径的文件。
 
 ```
 ~ $: cd hello;
@@ -125,7 +125,7 @@ transaction_id:080644552240ad9ae3dc9e26f1121f00ba9894c205232da867a67b98034a3e1e
 ************************************* [testnet] dapp setabi *************************************
 ```
 
-发布合约代码：
+发布合约代码，`setcode` 支持任意路径的合约，并且支持单个文件以及目录发布。
 
 ```
 ~ $: js4dapp dapp setcode contracts
@@ -194,12 +194,12 @@ transaction_id:5d59cc6b30e2c104429fc918765fe07876576d6257a003514d3ac9cd0292ebb6
 ```
 
 
-### 区块主网网络管理
+### 区块链网络管理
 
 1. 查看网络情况
 
 ```
-~ $: js4dapp dapp net ls
+~ $: js4dapp net ls
 ```
 
 ```
@@ -253,7 +253,7 @@ transaction_id:5d59cc6b30e2c104429fc918765fe07876576d6257a003514d3ac9cd0292ebb6
 #### 1. 快速生成一个随机账户
 
 ```
-js4dapp wallet random
+~ $: js4dapp wallet random
 ```
 
 ```
